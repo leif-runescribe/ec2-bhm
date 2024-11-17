@@ -79,6 +79,9 @@ const BlockchainHealthDashboard = () => {
   return (
     <div className="min-h-screen bg-gray-900 text-white p-6">
       {/* Top Stats Bar */}
+        <div className='text-center py-4'>
+      <h1 className='text-3xl'>Blockchain Health Monitor</h1>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
         <div className="bg-gray-800 rounded-lg p-4 relative overflow-hidden group hover:bg-gray-750 transition-all duration-300">
           <div className="flex items-center justify-between">
